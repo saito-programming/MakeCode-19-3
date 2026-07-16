@@ -21,10 +21,10 @@ function 前進 () {
     共通(65, 205)
 }
 input.onButtonPressed(Button.AB, function () {
-    左折()
+    停止()
 })
 input.onButtonPressed(Button.B, function () {
-    後進()
+    左折()
 })
 function 停止 () {
     共通(135, 135)
